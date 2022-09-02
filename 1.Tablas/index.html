@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> 
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Ejercico tablas</h1>
+    <h2>Tabla nro 1</h2>
+
+    <!-- Cada fila consumida resta a la otra. En el caso de la H es notorio. La E, la C y la G le consumieron 3 de 4 filas. Por ende, descarto las que no van y solo tiene la H
+    Lo mismo para I, J, K. La G le comio una fila, asi que ese tr tendra 3 td en vez de 4-->
+    <div class="container">
+    <div>
+        <table>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td rowspan="2">E</td>
+                <td>F</td>
+                <td rowspan="3">G</td>
+            </tr>
+            <tr>   
+                <td>H</td>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>J</td>
+                <td>K</td>
+            </tr>
+        </table>
+
+        <h2>Tabla nro 2</h2>
+        <table>
+            <tr>
+                <td colspan="3">A</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td colspan="2">D</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td colspan="4">F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+                <td>J</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>
