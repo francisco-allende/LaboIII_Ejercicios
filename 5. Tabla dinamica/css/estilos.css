@@ -1,0 +1,46 @@
+/*
+body{
+    background-color: black;
+    color: green;
+}*/
+
+body{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+/*
+The border-collapse property in CSS is used to set the borders of the cell present inside the table and tells whether these cells will share a common border or not.
+Evita ese duplicado feo de celdas noventosa
+*/
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 3px 5px;
+    text-align: center;
+}
+
+th{
+    text-transform: capitalize;
+    background-color: indianred;
+}
+
+#divFormulario{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*css aparte esto*/
+
+.gris{
+    background-color: #ccc;
+}
+
+.mouse{
+    cursor: pointer;
+}
